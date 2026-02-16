@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="CRM.TestScriptsClass">
         <methods>
-          <include name="TC5_Documents"/>
+          <include name="TC7_TaskToLead" invocation-numbers="0"/>
+          <include name="TC12_Filter_LeadTags" invocation-numbers="0"/>
           <include name="setUp"/>
-          <include name="TC2_AnalyticsReports"/>
-          <include name="TC1_loginTest"/>
-          <include name="TC6_CreationOfLead"/>
-          <include name="TC7_TaskToLead"/>
-          <include name="TC12_Filter_LeadTags"/>
           <include name="tearDown"/>
-          <include name="TC13_Filter_LeadSource"/>
           <include name="TC10_DocumentDownload" invocation-numbers="0"/>
-          <include name="TC11_Generating_Analytical_Rep"/>
-          <include name="TC8_sales_pipeline_stage"/>
-          <include name="TC3_Leads"/>
-          <include name="TC4_Tasks"/>
-          <include name="TC9_UploadDocument"/>
+          <include name="TC8_sales_pipeline_stage" invocation-numbers="0"/>
+          <include name="TC9_UploadDocument" invocation-numbers="0"/>
         </methods>
       </class> <!-- CRM.TestScriptsClass -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

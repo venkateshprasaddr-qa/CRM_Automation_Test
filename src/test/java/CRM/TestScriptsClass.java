@@ -30,11 +30,14 @@ public class TestScriptsClass extends BaseClass {
         driver.get("https://qa.ifaclick.com/login");
         
         
+        System.out.println("Git push test");
         driver.findElement(By.id("email")).sendKeys("venkatesh.prasad@techcanopy.com");
 		
 		driver.findElement(By.id("password")).sendKeys("Manuvenky7#");
 		
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		System.out.println();
+		//init
 		
     }
 		

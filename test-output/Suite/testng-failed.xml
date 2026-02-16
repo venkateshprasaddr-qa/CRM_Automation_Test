@@ -5,10 +5,13 @@
     <classes>
       <class name="CRM.TestScriptsClass">
         <methods>
+          <include name="TC7_TaskToLead" invocation-numbers="0"/>
           <include name="TC12_Filter_LeadTags" invocation-numbers="0"/>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="TC10_DocumentDownload" invocation-numbers="0"/>
+          <include name="TC8_sales_pipeline_stage" invocation-numbers="0"/>
+          <include name="TC9_UploadDocument" invocation-numbers="0"/>
         </methods>
       </class> <!-- CRM.TestScriptsClass -->
     </classes>
